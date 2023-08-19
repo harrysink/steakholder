@@ -1,0 +1,128 @@
+.main {
+    position: relative;
+    padding: 30px 50px 30px 50px;
+    margin-top: 165px;
+    /*border: 2px solid rgb(163, 153, 153);*/
+    border-radius: 10px;
+    background: whitegrey;
+    backdrop-filter: blur(3px);
+    box-shadow: 1px 1px 5px 1px rgba(14, 12, 12, 0.637);
+}
+.main h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+.main .input-icons {
+    width: 402px;
+    display: inline-flex;
+    align-items: center;
+}
+.main .input-icons i {
+    margin-left: 15px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.main input {
+    width: 100%;
+    padding: 9px 9px 9px 36px;
+    border: 1px solid white; 
+    border-radius: 4px;
+    margin-right: 3px;
+    font-size: small;
+    color: black;
+}
+.main input::placeholder {
+    font-size: small;
+    color: grey;
+}
+.main .address {
+    display: inline;
+}
+.delivery-time {
+    display: inline-flex;
+    align-items: center;
+}
+.delivery-time i {
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 12.5px;
+}
+.main select {
+    font-size: small;
+    padding: 9.3px 9.3px 9.3px 35px;
+    border: 1px solid white;
+    margin-right: 3px;
+    margin-top: 7.5px;
+    border-radius: 4px;
+}
+.main select option:scope {
+    color: grey;
+}
+.main button {
+    color: rgb(202, 146, 62);
+    background: black;
+    font-size: small;
+    padding: 9px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 6px;
+    font-weight: 500;
+}
+.main p {
+    padding-top: 20px;
+    font-size: small;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+}
+.main p a {
+    color: rgb(202, 146, 62);
+}
+
+/*Media query*/
+@media screen and (max-width: 1075px) {
+    .App {
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+    .main {
+        position: relative;
+        margin-top: 165px;
+    }
+    .main h1 {
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 816px) {
+    .main h1 {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .main .input-icons i {
+        display: inline;
+    }
+}
+@media screen and (max-width: 576px) {
+    .main .input-icons {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 468px) {
+    .App {
+        padding: 20px !important;
+    }
+    nav {
+        margin: 0px;
+    }
+    .main {
+        padding: 10px 30px 10px 30px;
+    }
+    .main h1 {
+        font-size: 25px;
+    }
+}
