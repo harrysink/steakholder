@@ -1,7 +1,7 @@
 .main {
     position: relative;
     padding: 30px 50px 30px 50px;
-    margin-top: 165px;
+    margin: 165px 34px 135px 34px;
     /*border: 2px solid rgb(163, 153, 153);*/
     border-radius: 10px;
     background: whitegrey;
@@ -29,7 +29,7 @@
     padding: 9px 9px 9px 36px;
     border: 1px solid white; 
     border-radius: 4px;
-    margin-right: 3px;
+    margin-right: 6.2px;
     font-size: small;
     color: black;
 }
@@ -43,6 +43,7 @@
 .delivery-time {
     display: inline-flex;
     align-items: center;
+    margin-right: 3.2px;
 }
 .delivery-time i {
     margin-left: 15px;
@@ -113,11 +114,8 @@
     }
 }
 @media screen and (max-width: 468px) {
-    .App {
-        padding: 20px !important;
-    }
-    nav {
-        margin: 0px;
+    .main {
+        margin: 165px 20px 135px 20px;
     }
     .main {
         padding: 10px 30px 10px 30px;
