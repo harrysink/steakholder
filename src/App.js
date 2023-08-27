@@ -1,16 +1,26 @@
-import NavBar from './components/NavBar';
-import MainBody from './components/MainBody';
-import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import SignInPage from './pages/SignInPage';
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-      <MainBody/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="signin" element={<SignInPage/>}/>
+        </Routes>
+      </BrowserRouter>
   );
 }
 
 export default App;
+
+/*<BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MainBody/>}>
+            <Route path="signin" element={<SignIn/>}/>
+          </Route>
+        </Routes>
+      </BrowserRouter>*/
+

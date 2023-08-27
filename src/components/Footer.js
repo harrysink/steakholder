@@ -16,6 +16,7 @@ function Footer() {
             <div className='upperfooter'>
                 <div className='logosection'>
                     <img src={logo} alt="steakholder logo"/>
+                    <h6><i>...the grill road!</i></h6>
                     <p className="app-advert-1">
                         <div className="div-1">
                             <img src={appstorelogo} alt="app store logo"/>

@@ -23,19 +23,19 @@ function SignIn() {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <label>
-                Username:
-                <input type="text" value={username}
-                onChange={handleUsernameChange}/>
-            </label>
-            <label>
-                Password:
-                <input type="password" value={password}
-                onChange={handlePasswordChange}/>
-            </label>
-            <button type="submit" disabled={!validateForm}>Sign in</button>
-        </form>
+        <div className="signin">
+            <div className="signin-div">
+                <h3>Sign in to your account</h3>
+                <div className="form-div">
+                    <form onSubmit={handleSubmit}>
+                        <input value={username} onChange={handleUsernameChange} type="text" placeholder="Enter phone number or email"/>
+                        <input value={password} onChange={handlePasswordChange} type="password" placeholder="Enter password"/>
+                        <button type="submit" disabled={!validateForm}>sign in</button>
+                        <p>Don't have an account yet? <span>Sign up</span></p>
+                    </form>
+                </div>
+            </div>
+        </div>
     )
 };
 

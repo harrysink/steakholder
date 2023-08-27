@@ -1,6 +1,7 @@
 .footer {
     position: relative;
-    background-color: white;
+    background-color: rgb(221, 210, 174);
+    color: black;
     padding: 39px 34px 0px 34px;
     width: 100%;
 }
@@ -10,19 +11,36 @@
 .logosection {
     width: 50%;
 }
-.logosection img {
+.logosection > img {
     width: 180px;
     border-radius: 8px;
-    margin-bottom: 130px;
+    margin-bottom: 8px;
+}
+.logosection > h6 {
+    margin-bottom: 80px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: rgb(153, 107, 39);;
 }
 .div-1 {
     display: flex;
 }
 .div-1 img {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
+    width: 130px;
 }
 .div-1 img:first-of-type {
     padding-right: 10px;
+}
+.div-2 {
+    display: flex;
+}
+.div-2 img {
+    margin-bottom: 8px;
+    width: 110px;
+}
+.div-2 img:first-of-type {
+    padding-right: 7px;
 }
 .social-media-1 span {
     padding-right: 15px;
@@ -72,6 +90,10 @@
     }
     .logosection img {
         width: 150px;
+    }
+    .logosection > h6 {
+        margin-bottom: 20px;
+        font-size: 0.9em;
     }
     .social-media-1 {
         display: none;

@@ -116,8 +116,6 @@
 @media screen and (max-width: 468px) {
     .main {
         margin: 165px 20px 135px 20px;
-    }
-    .main {
         padding: 10px 30px 10px 30px;
     }
     .main h1 {

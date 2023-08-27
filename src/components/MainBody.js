@@ -5,21 +5,23 @@ import './MainBody.css';
 
 function MainBody() {
     /*const [findFood, setfindFood] = useState(false);*/
-    const locationIcon = <FontAwesomeIcon 
-                            icon={faLocationDot} 
+    const locationIcon = <FontAwesomeIcon
+                            icon={faLocationDot}
                             style={
-                                {position: 'absolute',
+                                {
+                                 position: 'absolute',
                                  marginLeft: 15,
                                  marginBottom: 0,
                                  fontSize: 14
                                 }
                             }
                          />
-    const clockIcon = <FontAwesomeIcon 
-                            icon={faClock} 
+    const clockIcon = <FontAwesomeIcon
+                            icon={faClock}
                             style={
-                                {position: 'absolute',
-                                 marginLeft: 15,    
+                                {
+                                 position: 'absolute',
+                                 marginLeft: 15,
                                  marginTop: 10,
                                  fontSize: 12.5,
                                 }
@@ -44,7 +46,7 @@ function MainBody() {
                 </select>
             </div>
             <button type="submit">Find Food</button>
-            <p><a href="sign-in.html">Sign in</a> for your recent addresses</p>
+            <p><a href="/signin">Sign in</a> for your recent addresses</p>
         </main>
     )
 }

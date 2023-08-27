@@ -18,18 +18,13 @@ export default function NavBar() {
             <a className="navbar-brand" href="steakholder.html">
                 <img src={logo} alt="steakholder logo"/>
             </a>
-            <BrowserRouter>
-                <Link to="/signin">
+                <a href="/signin">
                     <button className='sign-in'>Sign in</button>
-                </Link>
-                <Routes>
-                    <Route path="/signin" component={<SignIn />} />
-                </Routes>
-            </BrowserRouter>
+                </a>
 
             <div className="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul className="navbar-nav mb-auto">
-                    <li className="nav-item">Sign-in</li>
+                    <li className="nav-item">Sign-up</li>
                 </ul>
                 <p className="app-advert">App coming soon!</p>
             </div>
