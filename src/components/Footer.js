@@ -25,30 +25,30 @@ function Footer() {
                         App coming to stores soon!
                     </p>
                     <div className="social-media-1">
-                        <span>{facebook}</span>
-                        <span>{twitter}</span>
-                        <span>{instagram}</span>
-                        <span>{linkedin}</span>
+                        <span><a href="">{facebook}</a></span>
+                        <span><a href="">{twitter}</a></span>
+                        <span><a href="">{instagram}</a></span>
+                        <span><a href="">{linkedin}</a></span>
                     </div>
                 </div>
                 <div className='otherlinks'>
-                    <p>Contact</p>
-                    <p>Signup as a business</p>
-                    <p>View pick-up points nearby</p>
-                    <p>Privacy</p>
-                    <p>Terms</p>
+                    <p><a href="">Contact</a></p>
+                    <p><a href="/signup">Sign up as a business</a></p>
+                    <p><a href="">View pick-up points nearby</a></p>
+                    <p><a href="">Privacy</a></p>
+                    <p><a href="">Terms</a></p>
                     <p className="app-advert-2">
                         <div className="div-2">
-                            <img src={appstorelogo} alt="app store logo"/>
-                            <img src={playstorelogo} alt="play store logo"/>
+                            <a href=""><img src={appstorelogo} alt="app store logo"/></a>
+                            <a href=""><img src={playstorelogo} alt="play store logo"/></a>
                         </div>
                         App coming to stores soon!
                     </p>
                     <div className="social-media-2">
-                        <span>{facebook}</span>
-                        <span>{twitter}</span>
-                        <span>{instagram}</span>
-                        <span>{linkedin}</span>
+                        <span><a href="">{facebook}</a></span>
+                        <span><a href="">{twitter}</a></span>
+                        <span><a href="">{instagram}</a></span>
+                        <span><a href="">{linkedin}</a></span>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-.signin {
+.signup {
     padding: 34px;
     background: url(../images/1278235-darkened.jpg);
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
 }
-.signin-div {
+.signup-div {
     width: 40%;
     color: white;
     padding: 30px 50px 30px 50px;
@@ -16,7 +16,7 @@
     border-radius: 10px;
     margin-top: 70px;
 }
-.signin h3 {
+.signup h3 {
     display: block;
     text-align: center;
     margin-bottom: 30px;
@@ -56,7 +56,7 @@
     color: white;
     border: 1px solid black;
     margin-bottom: 10px;
-    transition: all .3s ease-in-out
+    transition: all .3s ease-in-out;
 }
 .form-div form button:hover {
     transition: all .3s ease-in-out;
@@ -68,50 +68,50 @@
 }
 /*Media query*/
 @media screen and (max-width: 1075px) {
-    .signin-div {
+    .signup-div {
         width: 40%;
     }
 }
 @media screen and (max-width: 1011px) {
-    .signin-div {
+    .signup-div {
         width: 45%;
     }
 }
 @media screen and (max-width: 955px) {
-    .signin-div {
+    .signup-div {
         width: 50%;
     }
 }
 @media screen and (max-width: 855px) {
-    .signin-div {
+    .signup-div {
         width: 60%;
     }
 }
 @media screen and (max-width: 755px) {
-    .signin-div {
+    .signup-div {
         width: 70%;
     }
 }
 @media screen and (max-width: 667px) {
-    .signin-div {
+    .signup-div {
         width: 75%;
     }
 }
 @media screen and (max-width: 571px) {
-    .signin-div {
+    .signup-div {
         width: 85%;
     }
 }
 @media screen and (max-width: 500px) {
-    .signin-div {
+    .signup-div {
         width: 95%;
     }
 }
 @media screen and (max-width: 469px) {
-    .signin {
+    .signup {
         padding: 34px 0px 34px 0px;
     }
-    .signin-div {
+    .signup-div {
         margin: 70px 20px 0px 20px;
         padding: 20px 30px 10px 30px;
     }

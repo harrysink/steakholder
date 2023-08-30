@@ -15,7 +15,7 @@ export default function NavBar() {
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler">{hamburger}</span>
             </button>
-            <a className="navbar-brand" href="steakholder.html">
+            <a className="navbar-brand" href="/">
                 <img src={logo} alt="steakholder logo"/>
             </a>
                 <a href="/signin">
@@ -24,7 +24,7 @@ export default function NavBar() {
 
             <div className="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul className="navbar-nav mb-auto">
-                    <li className="nav-item">Sign-up</li>
+                    <a href='/signup'><li className="nav-item">Sign up</li></a>
                 </ul>
                 <p className="app-advert">App coming soon!</p>
             </div>
