@@ -45,9 +45,12 @@
 .social-media-1 span {
     padding-right: 15px;
     cursor: pointer;
+}
+.social-media-1 span a {
+    color: black;
     transition: all .3s ease-in-out;
 }
-.social-media-1 span:hover {
+.social-media-1 span a:hover {
     color: rgb(202, 146, 62);
 }
 .social-media-2 {
@@ -85,7 +88,9 @@
 .lowerfooter p {
     text-align: center;
 }
-
+.app-advert-1 .div-1 img, .app-advert-2 .div-2 img {
+    cursor: pointer;
+}
 /*Media query*/
 @media screen and (max-width: 767px) {
     .upperfooter {

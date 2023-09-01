@@ -9,7 +9,6 @@ function SignInPage() {
       <NavBar/>
       <SignIn/>
       <Footer/>
-      
     </div>
   );
 }

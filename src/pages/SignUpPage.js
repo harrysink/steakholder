@@ -9,7 +9,6 @@ function SignUpPage() {
       <NavBar/>
       <SignUp/>
       <Footer/>
-      
     </div>
   );
 }

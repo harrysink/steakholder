@@ -33,7 +33,7 @@ function SignUp() {
                 <h3>Sign up to create your account</h3>
                 <div className="form-div">
                     <form onSubmit={handleSubmit}>
-                        <input value={username} onChange={handleUsernameChange} type="text" placeholder="Enter phone number or email"/>
+                        <input placeholder="Enter phone number or email" value={username} onChange={handleUsernameChange} type="text" />
                         <input value={password} onChange={handlePasswordChange} type="password" placeholder="Enter password"/>
                         <input value={passwordtwo} onChange={handlePasswordChangeTwo} type="password" placeholder="Re-enter password"/>
                         <button type="submit" disabled={!validateForm}>sign up</button>
