@@ -37,7 +37,7 @@ function MainBody() {
                     <input className="input-field" type="text" placeholder="Enter delivery address"/>
                 </div>
             </form>
-            <div className="delivery-time">
+            <div className="dt">
                 {clockIcon}
                 <select name="delivery-time" id="delivery-time">
                     <option value="d1">Deliver now</option>
