@@ -37,7 +37,7 @@ function SignUp() {
                         <input value={password} onChange={handlePasswordChange} type="password" placeholder="Enter password"/>
                         <input value={passwordtwo} onChange={handlePasswordChangeTwo} type="password" placeholder="Re-enter password"/>
                         <button type="submit" disabled={!validateForm}>sign up</button>
-                        <p>Already have an account? <a href="/signin">Sign in</a></p>
+                        <p>Already have an account? <a href="/signin"><strong>Sign in</strong></a></p>
                     </form>
                 </div>
             </div>

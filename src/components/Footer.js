@@ -33,8 +33,8 @@ function Footer() {
                 </div>
                 <div className='otherlinks'>
                     <p><a href="">Contact</a></p>
-                    <p><a href="/signup">Sign up as a business</a></p>
-                    <p><a href="">View pick-up points nearby</a></p>
+                    <p><a href="/signupbus">Sign up as a business</a></p>
+                    <p><a href="/pickuppoints">View pick-up points nearby</a></p>
                     <p><a href="">Privacy</a></p>
                     <p><a href="">Terms</a></p>
                     <p className="app-advert-2">
