@@ -9,7 +9,6 @@ function Home() {
       <NavBar/>
       <MainBody/>
       <Footer/>
-      
     </div>
   );
 }
