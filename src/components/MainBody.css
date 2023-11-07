@@ -57,12 +57,12 @@
     font-size: 12.5px;
 }
 .main select {
-    font-size: small;
-    padding: 9.3px 9.3px 9.3px 35px;
-    border: 1px solid white;
-    margin-right: 3px;
-    margin-top: 7.5px;
-    border-radius: 4px;
+    font-size: small !important;
+    padding: 9.3px 9.3px 9.3px 35px !important;
+    border: 1px solid white !important;
+    margin-right: 3px !important;
+    margin-top: 7.5px !important;
+    border-radius: 4px !important;
 }
 .main select option:scope {
     color: grey;
