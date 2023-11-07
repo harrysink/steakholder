@@ -64,7 +64,7 @@
     margin-top: 7.5px;
     border-radius: 4px;
     -webkit-appearance: none;
-    color: black;
+    color: black !important;
 }
 .main select option:scope {
     color: grey;
