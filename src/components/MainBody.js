@@ -39,7 +39,7 @@ function MainBody() {
             </form>
             <div className="dt">
                 {clockIcon}
-                <select  className="dt-options" name="delivery-time" id="delivery-time">
+                <select name="delivery-time" id="delivery-time">
                     <option value="d1">Deliver now</option>
                     <option value="d2">Deliver at noon</option>
                     <option value="d3">Deliver at night</option>
