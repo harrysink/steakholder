@@ -33,9 +33,27 @@ function SignUp() {
                 <h3>Sign up to create your account</h3>
                 <div className="form-div">
                     <form onSubmit={handleSubmit}>
-                        <input placeholder="Enter phone number or email" value={username} onChange={handleUsernameChange} type="text" />
-                        <input value={password} onChange={handlePasswordChange} type="password" placeholder="Enter password"/>
-                        <input value={passwordtwo} onChange={handlePasswordChangeTwo} type="password" placeholder="Re-enter password"/>
+                        <input
+                            placeholder="Enter phone number or email"
+                            // value={username}
+                            onChange={handleUsernameChange}
+                            type="email"
+                            required
+                        />
+                        <input
+                            // value={password}
+                            onChange={handlePasswordChange}
+                            type="password"
+                            placeholder="Enter password"
+                            required
+                        />
+                        <input
+                            // value={passwordtwo}
+                            onChange={handlePasswordChangeTwo}
+                            type="password"
+                            placeholder="Confirm password"
+                            required
+                        />
                         <button type="submit" disabled={!validateForm}>sign up</button>
                         <p>Already have an account? <a href="/signin"><strong>Sign in</strong></a></p>
                     </form>

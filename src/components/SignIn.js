@@ -28,8 +28,20 @@ function SignIn() {
                 <h3>Sign in to your account</h3>
                 <div className="form-div">
                     <form onSubmit={handleSubmit}>
-                        <input value={username} onChange={handleUsernameChange} type="text" placeholder="Enter phone number or email"/>
-                        <input value={password} onChange={handlePasswordChange} type="password" placeholder="Enter password"/>
+                        <input
+                            // value={username}
+                            onChange={handleUsernameChange}
+                            type="email"
+                            placeholder="Enter phone number or email"
+                            required
+                        />
+                        <input
+                            // value={password}
+                            onChange={handlePasswordChange}
+                            type="password"
+                            placeholder="Enter password"
+                            required
+                        />
                         <button type="submit" disabled={!validateForm}>sign in</button>
                         <p>Don't have an account yet? <a href="/signup"><strong>Sign up</strong></a></p>
                     </form>

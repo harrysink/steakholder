@@ -54,8 +54,16 @@ nav a {
     padding-right: 11px;
     transition: all .3s ease-in-out;
 }
+.nav-item {
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.app-advert {
+    margin-bottom: 7px;
+}
 .app-advert, .nav-item {
     color: white;
+    margin-left: 24px;
 }
 /*Media query*/
 @media screen and (max-width: 468px) {
