@@ -10,7 +10,8 @@ import './SignIn.css';
 // }
 
 function SignIn() {
-    const { register, control, handleSubmit, validate, formState } = useForm()
+    const form = useForm()
+    const { register, control, handleSubmit, validate, formState } = form
 
     const onSubmit = (data) => {
         console.log("Form has been submitted!", data)

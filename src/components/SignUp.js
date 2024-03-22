@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useForm, useWatch } from 'react-hook-form'
+import { useForm } from 'react-hook-form'
 import { DevTool } from '@hookform/devtools'
 import './SignUp.css';
 
@@ -11,7 +11,7 @@ import './SignUp.css';
 
 function SignUp() {
     const form = useForm()
-    const { register, control, handleSubmit, watch, validate, formState, } = form
+    const { register, control, handleSubmit, watch, validate, formState } = form
     const { errors } = formState
 
     const onSubmit = (data) => {
