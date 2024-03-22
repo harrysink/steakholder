@@ -68,6 +68,10 @@
     color: rgb(202, 146, 62);
     text-decoration: none;
 }
+.errors {
+    color: red;
+    text-align: left;
+}
 /*Media query*/
 @media screen and (max-width: 1075px) {
     .signup-div {
