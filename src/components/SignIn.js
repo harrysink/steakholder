@@ -37,7 +37,7 @@ function SignIn() {
                                     value: "true",
                                     message: "this is a required field*"
                                 },
-                                validate: (fieldValue) => !fieldValue.endsWith("baddomain.com") || "this domina is not supported"
+                                validate: (fieldValue) => !fieldValue.endsWith("baddomain.com") || "this domain is not supported"
                             })}
                             placeholder="Enter phone number or email"
                         />
